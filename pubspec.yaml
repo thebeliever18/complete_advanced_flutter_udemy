@@ -1,0 +1,40 @@
+name: complete_advanced_flutter
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.1.4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/splash_logo.png
+    - assets/images/onboarding_logo1-mdpi.svg
+    - assets/images/onboarding_logo2-mdpi.svg
+    - assets/images/onboarding_logo3-mdpi.svg
+    - assets/images/onboarding_logo4.svg
+    - assets/images/right_arrow_icon-mdpi.svg
+    - assets/images/left_arrow_icon-mdpi.svg
+    - assets/images/filled_circle-mdpi.svg
+    - assets/images/not_filled_circle-mdpi.svg
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Montserrat-Light.ttf
+          weight: 300
