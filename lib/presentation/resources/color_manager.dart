@@ -14,6 +14,8 @@ class ColorManager {
   static Color grey2 = "#797979".fromHex;
   static Color white = "#FFFFFF".fromHex;
   static Color error = "#e61f34".fromHex; //red color
+
+  static Color black = "#000000".fromHex; //black
 }
 
 extension HexColor on String {
